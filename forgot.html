@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            border: 3px dotted white;
+            width: 80%;
+            border-left: none;
+            border-right: none;
+            justify-content: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .container label{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .enter{
+            width: 50%;
+        }
+        .send{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2 class="container-fluid mx-4 mt-4 text-light">Please Confirm this is your account</h2>
+    <div class="container">
+        <label class="text-muted" for="Confirm">Enter Your Email or Mobile Number</label> <br>
+    <input class="enter " type="text" name="Email-or-Mobile Number" id="Email-or-Mobile Number" placeholder="Enter Email or Mobile Number"> <button>send code</button><br><br>
+    <label class="text-muted" for="">Enter OTP :</label>
+    <input class="send" type="text"><br><br>
+    <button>Enter</button>
+    <br>
+    <a href=""><label for="">Resend code</label></a>
+    </div>
+</body>
+</html>
