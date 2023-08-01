@@ -29,6 +29,9 @@
     label{
         color: aliceblue;
     }
+    .input-group input{
+        width: 90%;
+    }
   }
 
 h1{

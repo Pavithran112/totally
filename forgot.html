@@ -37,12 +37,15 @@
     <h2 class="container-fluid mx-4 mt-4 text-light">Please Confirm this is your account</h2>
     <div class="container">
         <label class="text-muted" for="Confirm">Enter Your Email or Mobile Number</label> <br>
-    <input class="enter " type="text" name="Email-or-Mobile Number" id="Email-or-Mobile Number" placeholder="Enter Email or Mobile Number"> <button>send code</button><br><br>
+    <input class="enter" style="text-align: center;" type="email" name="Email-or-Mobile Number" onclick="email" id="Email-or-Mobile Number" placeholder="Enter Email or Mobile Number"> 
+    <button onclick="send">send code</button><br><br>
     <label class="text-muted" for="">Enter OTP :</label>
-    <input class="send" type="text"><br><br>
-    <button>Enter</button>
+    <input class="send" onclick="one-time-pass" type="text"><br><br>
+    <button onclick="">Enter</button>
     <br>
-    <a href=""><label for="">Resend code</label></a>
+    <a href=""><label onclick="re-send" for="">Resend code</label></a> <br>
+    <a href="Index .html"> Back to Sign in page</a>
+    <br><br>
     </div>
 </body>
 </html>

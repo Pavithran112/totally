@@ -36,30 +36,17 @@ span{
     color: aliceblue;
     font-family: serif;
 }
-.header-btn {
+.header-btn{
     text-decoration: none;
-    border-radius: 30px;
-    padding: 7px 20px;
+    border-radius: 10px;
+    padding: 5px 5px;
     float: right;
     margin-top: 35px;
     color: white;
     background-color: black;
     font-weight: 600;
 }
-nav{
-    border-radius: 7px;
-    width: 800px;
-    /* height: 120px; */
-    
-}
-.navbar a{
-    color: white;
-    font-size: 20px;
-}
-.navbar .nav .nav-item a:hover{
-    background-color: aliceblue;
-    color: black;
-}
+
 form{ 
     margin-top: 10px;
 }
@@ -114,11 +101,58 @@ form{
 .far{
     margin-right: 10px;
 }
+.logo{
+    width: 15%;
+}
+.acc button{
+    
+    margin-top: -1px;
+}
 @media only screen and(max-width: 600px){
     #one{
         background-color: thistle;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 110%;
     }
-    .nav{
-    width: 50%;
+    .title img{
+        width: 20%;
+    }
+   .forgot{
+    float: left;
    }
+   .head{
+    font-size: 10px;
+   }
+   .text .up{
+    margin-left: 30px;
+   }
+   ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+   }
+   .ent{
+    padding-right: 10px;
+    font-size: 20px;
+   }
+}
+#two{
+    background-color: #17362975;
+}
+.con{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+ul p{
+    display: inline;
+    padding-right: 50px;
+  
+}
+ul p a{
+    color: black;
+}
+.lan button{
+    margin-left: 100px;
+    width: 30%;
+    height: 50px;
 }
